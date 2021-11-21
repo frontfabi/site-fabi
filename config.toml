@@ -1,0 +1,129 @@
+baseURL       = "http://frontfabi.com.br/"
+languageCode  = "pt-br"
+title         = "frontfabi | Tech + Design + Marketing"
+theme         = "roxo-custom"
+summarylength = 8
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Sobre mim"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Fala comigo!"
+    url     = "contact"
+    weight  = 4
+
+# Site Params
+[params]
+  logo = "images/fabi-drops.png"
+  background_image = "images/backgrounds/hero-background.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "frontfabi | Design Agency Template by StaticMania"
+  author = "Fabi Rodrigues"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/f/mqkwolev"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "Seu nome"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "E-mail"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "Fala comigo!"
+    send_message                  = "Enviar"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Fala comigo!"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.png"
+    heading               = "Fabi Rodrigues"
+    tagline               = "FALA, PESSOAL! EU SOU"
+    primary_button        = "Confere aí as novis"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Fala tu!"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/hero-background.png"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+      phone   = "409-896-1444"
+      email   = "info@roxo.co"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Mídias Sociais"
+        [[params.footer.social.link]]
+          name = "twitter"
+          url  = "https://twitter.com/frontfabii"
+        [[params.footer.social.link]]
+          name = "instagram"
+          url  = "https://instagram.com/frontfabi"
+        [[params.footer.social.link]]
+          name = "github"
+          url  = "https://github.com/frontfabi"
+        [[params.footer.social.link]]
+          name = "linkedIn"
+          url  = "https://linkedin.com/in/frontfabi"
+
+      # Footer Service
+      [params.footer.service]
+        title       = "We help brands:"
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"

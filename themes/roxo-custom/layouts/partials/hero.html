@@ -1,0 +1,40 @@
+{{ with .Site.Params.banner }}
+  {{ if .enable }}
+  {{ "<!-- Site Hero Start -->" | safeHTML }}
+  <section class="site-hero" style="background-image: url('{{ "images/backgrounds/hero-background.png" | absURL }}');">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="site-hero-content text-center">
+            <h6>{{ .tagline }}</h6>
+            <h1>
+              {{ .heading }}
+            </h1>
+            <ul class="site-hero-content-buttons">
+              <li>
+                <a href="#home-blog" class="btn btn-secondary scroll-to">
+                  <span class="btn-area">
+                    <span data-text="{{ .primary_button }}">
+                      {{ .primary_button }}
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <!-- <li>
+                <a href="{{ .secondary_button_url | absURL }}" class="btn btn-primary">
+                  <span class="btn-area">
+                    <span data-text="{{ .secondary_button }}">
+                      {{ .secondary_button }}
+                    </span>
+                  </span>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ "<!-- Site Hero End -->" | safeHTML }}
+  {{ end }}
+{{ end }}

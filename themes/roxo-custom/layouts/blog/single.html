@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<section class="site-blog details">
+  <section class="site-blog-banner">
+    {{if .Params.image}}<img class="feature-image" src="{{ .Params.image | absURL }}" alt="blog-feature-image">{{else}}<img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">{{end}}
+    
+    <div class="site-blog-info">
+      <h2 class="blog-title">{{ .Title }}</h2>
+      <p><span>{{ .PublishDate.Format "02/01/2006" }}</span></p>
+
+      
+    </div>
+    <div class="author-block">
+      <img src="{{ "images/team/fabi-avatar.jpeg" | absURL }}" alt="Imagem de perfil Fabi rorrindo" />
+      <p>by <span>{{ .Params.author }}</span></p>
+
+    </div>
+  </section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="site-blog-details">
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ end }}
