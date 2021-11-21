@@ -1,7 +1,13 @@
 <head>
   <meta charset="utf-8" />
   <title>{{ .Title }}</title>
-
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="https://frontfabi.com.br/" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  {{ with .Site.Params.description }}
+  <meta name="twitter:description" content="{{ . }}" />
+  {{ end }}
+  <meta name="twitter:image" content="{{ "images/team/fabi-avatar.jpeg" | absURL }}" />
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />

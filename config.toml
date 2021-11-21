@@ -1,6 +1,7 @@
 baseURL       = "http://frontfabi.com.br/"
 languageCode  = "pt-br"
 title         = "frontfabi | Tech + Design + Marketing"
+description   = "Desenvolvedora, mercadóloga e designer. Trabalhando por mais inclusão no mercado de tecnologia"
 theme         = "roxo-custom"
 summarylength = 8
 
