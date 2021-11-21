@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frontfabi | Tech &#43; Design &#43; Marketing</title>
+    <link>http://frontfabi.com.br/</link>
+    <description>Recent content on frontfabi | Tech &#43; Design &#43; Marketing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 20 Nov 2021 13:45:06 +0600</lastBuildDate><atom:link href="http://frontfabi.com.br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enfim, Hello World!</title>
+      <link>http://frontfabi.com.br/blog/enfim-hello-world-copy-2/</link>
+      <pubDate>Sat, 20 Nov 2021 13:45:06 +0600</pubDate>
+      
+      <guid>http://frontfabi.com.br/blog/enfim-hello-world-copy-2/</guid>
+      <description>Depois de muito pensar, planejar, aprender e estudar, cansei de ver esse projeto só no papel e tomei coragem. Vai do jeito que dá!</description>
+    </item>
+    
+    <item>
+      <title>Enfim, Hello World!</title>
+      <link>http://frontfabi.com.br/blog/enfim-hello-world-copy-3/</link>
+      <pubDate>Sat, 20 Nov 2021 13:45:06 +0600</pubDate>
+      
+      <guid>http://frontfabi.com.br/blog/enfim-hello-world-copy-3/</guid>
+      <description>Depois de muito pensar, planejar, aprender e estudar, cansei de ver esse projeto só no papel e tomei coragem. Vai do jeito que dá!</description>
+    </item>
+    
+    <item>
+      <title>Enfim, Hello World!</title>
+      <link>http://frontfabi.com.br/blog/enfim-hello-world-copy/</link>
+      <pubDate>Sat, 20 Nov 2021 13:45:06 +0600</pubDate>
+      
+      <guid>http://frontfabi.com.br/blog/enfim-hello-world-copy/</guid>
+      <description>Depois de muito pensar, planejar, aprender e estudar, cansei de ver esse projeto só no papel e tomei coragem. Vai do jeito que dá!</description>
+    </item>
+    
+    <item>
+      <title>Enfim, Hello World!</title>
+      <link>http://frontfabi.com.br/blog/enfim-hello-world/</link>
+      <pubDate>Sat, 20 Nov 2021 13:45:06 +0600</pubDate>
+      
+      <guid>http://frontfabi.com.br/blog/enfim-hello-world/</guid>
+      <description>Depois de muito pensar, planejar, aprender e estudar, cansei de ver esse projeto só no papel e tomei coragem. Vai do jeito que dá!</description>
+    </item>
+    
+  </channel>
+</rss>
